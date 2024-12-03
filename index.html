@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./pages/script/style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li>Accueil</li>
+            <li>Connexion</li>
+        </ul>
+    </nav>
+    <form action="/pages/script/back/traitement.php" method="post">
+        <div>
+            <h1>Connexion</h1>
+        </div>
+        <label name="name">
+            Nom d'utilisateur
+        </label>
+        <input type="text" name="name">
+        <label name="password">
+            Mot de passe
+        </label>
+        <input type="password" name="password">
+        <button type="submit">
+            Envoyer
+        </button>
+    </form>
+    <footer>
+        Git évaluation dfs 2024 - MICHEL Joris - ROLDAN Hélèna
+    </footer>
 </body>
 </html>
