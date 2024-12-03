@@ -1,0 +1,37 @@
+
+main {
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article-card {
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(201, 199, 199);
+    border-radius: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.btn-article  {
+    text-decoration: none;
+    color: black;
+    background-color: violet;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#weather-bloc {
+    border: 1px solid grey;
+    width: 350px;
+    padding: 15px;
+
+}
+
